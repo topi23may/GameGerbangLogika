@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:fontFamily="@font/gotham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Game Gerbang Logika"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <TextView
+                android:fontFamily="@font/gotham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Created By Yekto P"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:id="@+id/linearMulai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/BlueSea2"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_margin="18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="MULAI"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/gotham"
+                            android:textSize="25sp"
+                            android:textColor="@color/colorWhite"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="180dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp">
+                    <LinearLayout
+                        android:id="@+id/linearLatihan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/BlueSea2"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_margin="18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="LATIHAN"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/gotham"
+                            android:textSize="25sp"
+                            android:textColor="@color/colorWhite"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="uploadImages">
+        <item>Galery</item>
+        <item>Kamera</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>gallery_image</item>
+        <item>camera_image</item>
+    </string-array>
+
+    <string-array name="dinas_pendidikan">
+        <item>Surat PDF</item>
+        <item>Artikel</item>
+    </string-array>
+
+    <string-array name="lembaga">
+        <item>TK</item>
+        <item>PAUD</item>
+        <item>RA</item>
+        <item>SD</item>
+        <item>SMP</item>
+    </string-array>
+
+    <string-array name="dificulty">
+        <item>Kesulitan</item>
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="kategorikal">
+        <item>Kategorikal</item>
+        <item>AND</item>
+        <item>OR</item>
+        <item>NAND</item>
+        <item>NOR</item>
+        <item>XOR</item>
+        <item>XNOR</item>
+    </string-array>
+
+    <string-array name="piket">
+        <item>Piket</item>
+        <item>Mengajar</item>
+    </string-array>
+
+    <string-array name="media_pembelajaran">
+        <item>Tematik Pembelajaran</item>
+        <item>Cerita dan Dongeng</item>
+        <item>Gerak dan Lagu</item>
+    </string-array>
+
+
+
+</resources>
